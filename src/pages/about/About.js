@@ -16,10 +16,10 @@ export default function About() {
             Hi, I'm Madisen. 
             <br/>
             <br/>
-            I have a B.A. in French Studies from Smith College, and I'm now learning to code at the University of Denver's Full Stack Web Development Bootcamp.
+            Pink Ranger is a dynamic three piece rock band hailing from Denver, CO. With an eclectic mix of influences ranging from pop to punk to alternative, their sound is both fresh and familiar.
             <br/>
             <br/>
-            I'm a passionate advocate for women in technology, working to make tech more inclusive and equitable.
+            This talented trio has been captivating audiences with their high-energy performances and catchy tunes, leaving fans eager for more. And they won't have to wait much longer, as Pink Ranger is set to release their highly anticipated EP in the fall of 2023. Get ready for a wild ride filled with driving beats, soaring guitars, and irresistible hooks, as Pink Ranger proves that rock and roll is alive and well.
           </p>
         </div>
       </div>

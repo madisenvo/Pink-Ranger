@@ -6,10 +6,10 @@ img {
     margin-top: 80px;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Vibur&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Creepster&display=swap');
 
 .about {
     font-size: 22px;
-    font-family: "Oswald", sans-serif;
+    font-family: 'Arvo', serif;
 }
 

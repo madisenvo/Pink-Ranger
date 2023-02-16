@@ -1,18 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Vibur&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Creepster&display=swap');
 
 .nav {
   background-color: #e7269b;
   height: 100px;
   color: #fff;
+  font-family: 'Arvo', serif;
   font-size: 20px;
-  font-family: "Oswald", sans-serif;
 }
+
 
 .name {
   color: #fff;
-  font-size: 50px;
-  font-family: "Vibur", sans-serif;
-  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #f09,
-    0 0 82px #f09, 0 0 92px #f09, 0 0 102px #f09, 0 0 151px #f09;
+  font-size: 60px;
+  font-family: 'Creepster', cursive;
 }
-

@@ -3,8 +3,8 @@ import "./App.css";
 import Header from "./components/Header/Header.js";
 import About from "./pages/about/About.js";
 import Contact from "./pages/contact/Contact.js";
-import Portfolio from "./pages/portfolio/Portfolio.js";
-import Resume from "./pages/resume/Resume.js";
+import Music from "./pages/music/Music.js";
+import Shows from "./pages/shows/Shows.js";
 import Footer from "./components/Footer/Footer.js";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -15,9 +15,9 @@ function App() {
         <Header />
         <Routes>
           <Route path="/React-Portfolio" element={<About />} />
-          <Route path="/Portfolio" element={<Portfolio />} />
+          <Route path="/Music" element={<Music />} />
+          <Route path="/Shows" element={<Shows />} />
           <Route path="/Contact" element={<Contact />} />
-          <Route path="/Resume" element={<Resume />} />
         </Routes>
         <Footer />
     </BrowserRouter>

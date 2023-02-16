@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Vibur&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Creepster&display=swap');
 
 .btn{
     background-color: #f09 !important;
@@ -8,6 +8,6 @@
     padding: 50px;
     margin-left: 80px;
     margin-right: 80px;
-    font-family: "Oswald", sans-serif;
+    font-family: 'Arvo', serif;
     font-size: 30px;
 }
