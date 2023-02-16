@@ -7,19 +7,25 @@ export default function About() {
     <section className="container">
       <div className="row d-flex justify-content-center align-items-center">
         <div className="col-sm">
-          <img src={MyFace} className='img-fluid' alt="my face" />
+          <img src={MyFace} className="img-fluid" alt="my face" />
         </div>
         <div className="col-sm about">
           <p>
-            <br/>
-            <br/>
-            Hi, I'm Madisen. 
-            <br/>
-            <br/>
-            Pink Ranger is a dynamic three piece rock band hailing from Denver, CO. With an eclectic mix of influences ranging from pop to punk to alternative, their sound is both fresh and familiar.
-            <br/>
-            <br/>
-            This talented trio has been captivating audiences with their high-energy performances and catchy tunes, leaving fans eager for more. And they won't have to wait much longer, as Pink Ranger is set to release their highly anticipated EP in the fall of 2023. Get ready for a wild ride filled with driving beats, soaring guitars, and irresistible hooks, as Pink Ranger proves that rock and roll is alive and well.
+            <br />
+            <br />
+            Pink Ranger is a dynamic three-piece rock band hailing from Denver,
+            Colorado. The band, comprised of Madisen Kwon, Sean Grant, and Wes
+            Barton, was formed with the goal of creating a unique sound that
+            blends their diverse range of musical influences. Drawing from a
+            wide variety of genres, Pink Ranger has crafted a sound that is both
+            fresh and familiar.
+            <br />
+            <br />
+            The band is excited to share their music with the world and is
+            currently working on recording their debut EP, which will showcase
+            their energetic and infectious sound.
+            <br />
+            <br />
           </p>
         </div>
       </div>
