@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Vibur&display=swap");
+
+.container{
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+
+    justify-content: space-around;
+}
+
+.card-title{
+    font-family: 'Vibur', cursive;
+}
+
+.card-img{
+    width: 100%;
+    height: 20rem;
+}
+
+.card-title{
+    padding: 2rem;
+}
+
+.card-btn{
+    padding: 10px;
+    margin-right: 1rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #f09;
+    color: #fff;
+}

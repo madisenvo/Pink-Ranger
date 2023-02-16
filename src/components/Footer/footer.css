@@ -1,0 +1,11 @@
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
