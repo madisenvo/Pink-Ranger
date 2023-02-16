@@ -12,9 +12,9 @@ export default function Header() {
       <h1 className="name">Pink Ranger</h1>
       <Nav className="justify-content-end">
         <Link to="/React-Portfolio" className="nav-link">About</Link>
-        <Link to="/Portfolio" className="nav-link">Portfolio</Link>
-        <Link to="/Contact" className="nav-link">Contact Us</Link>
-        <Link to="/Resume" className="nav-link">Resume</Link>
+        <Link to="/Music" className="nav-link">Music</Link>
+        <Link to="/Shows" className="nav-link">Shows</Link>
+        <Link to="/Contact" className="nav-link">Contact</Link>
       </Nav>
     </Container>
   </Navbar>
