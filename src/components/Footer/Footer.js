@@ -5,9 +5,9 @@ import { SocialIcon } from "react-social-icons";
 export default function Footer() {
   return (
     <div className="icons">
-      <SocialIcon url="https://github.com/madisenvo" />
-      <SocialIcon url="https://www.linkedin.com/in/madisen-v-63814511a/" />
-      <SocialIcon url="https://twitter.com/madisenmim" />
+      <SocialIcon url="https://www.facebook.com/pinkrangermusic" />
+      <SocialIcon url="https://instagram.com/pinkranger.x?igshid=MWI4MTIyMDE=" />
+      <SocialIcon url="https://www.youtube.com/channel/UCa0ZML7l-CVcPRF_SFGt5rA" />
     </div>
   );
 }
