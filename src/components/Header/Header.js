@@ -11,7 +11,7 @@ export default function Header() {
     <Container>
       <h1 className="name">Pink Ranger</h1>
       <Nav className="justify-content-end">
-        <Link to="/" className="nav-link">About</Link>
+        <Link to="/About" className="nav-link">About</Link>
         <Link to="/Music" className="nav-link">Music</Link>
         <Link to="/Shows" className="nav-link">Shows</Link>
         <Link to="/Contact" className="nav-link">Contact</Link>
