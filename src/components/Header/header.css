@@ -55,7 +55,7 @@
   margin: 0;
   padding: 80px 0;
   list-style: none;
-  background-color: #d44378;
+  background-color: #d44378b5;
   box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
   transition-duration: .25s;
 }

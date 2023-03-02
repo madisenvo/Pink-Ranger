@@ -16,6 +16,11 @@ export default function Header() {
             </a>
           </li>
           <li>
+            <a class="menu__item" href="/About">
+              About
+            </a>
+          </li>
+          <li>
             <a class="menu__item" href="/Music">
               Music
             </a>
