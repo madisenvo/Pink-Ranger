@@ -9,15 +9,23 @@ img {
 @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Creepster&display=swap');
 
 .about {
-    font-size: 22px;
+    flex-direction: column;
+    font-size: 40px;
     font-family: 'Arvo', serif;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 100%;
+    width: 100%;
+    padding: 5%;
+
+
 }
 
 .abt{
     height: 100vh;
     width: 100%;
-    
-    /* background-image: url("./blankbg.png");
-    background-size: cover; */
-    background-color: aqua;
+    background-image: url("./blankbg.png");
+    background-size: cover;
+    display: flex;
 } 
