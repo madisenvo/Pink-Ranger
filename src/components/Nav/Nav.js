@@ -1,7 +1,7 @@
 import React from "react";
-import "./header.css";
+import "./nav.css";
 
-export default function Header() {
+export default function Nav() {
   return (
       <div class="hamburger-menu">
         <input id="menu__toggle" type="checkbox" />

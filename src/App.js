@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import Header from "./components/Header/Header.js";
+import Nav from "./components/Nav/Nav.js";
 import About from "./pages/about/About.js";
 import Contact from "./pages/contact/Contact.js";
 import Music from "./pages/music/Music.js";
@@ -12,7 +12,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <BrowserRouter>
-        <Header />
+        <Nav />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/About" element={<About />} />
