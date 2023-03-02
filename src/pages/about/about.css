@@ -13,3 +13,10 @@ img {
     font-family: 'Arvo', serif;
 }
 
+.abt{
+    height: 100vh;
+    width: 100%;
+    
+    background-image: url("./bg.png");
+    background-size: cover;
+}    

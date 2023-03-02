@@ -1,21 +1,31 @@
-import React from 'react';
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import { Link } from 'react-router-dom';
-import './header.css';
+import React from "react";
+import "./header.css";
 
 export default function Header() {
   return (
-    <Navbar className="nav">
-    <Container>
-      <a href="/"> <h1 className="name">Pink Ranger</h1></a> 
-      <Nav className="justify-content-end">
-        <Link to="/Music" className="nav-link">Music</Link>
-        <Link to="/Shows" className="nav-link">Shows</Link>
-        <Link to="/Contact" className="nav-link">Contact</Link>
-      </Nav>
-    </Container>
-  </Navbar>
-  )
+      <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+          <span></span>
+        </label>
+
+        <ul class="menu__box">
+          <li>
+            <a class="menu__item" href="/">
+              Home
+            </a>
+          </li>
+          <li>
+            <a class="menu__item" href="/Music">
+              Music
+            </a>
+          </li>
+          <li>
+            <a class="menu__item" href="/Contact">
+              Contact
+            </a>
+          </li>
+        </ul>
+      </div>
+  );
 }

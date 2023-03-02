@@ -1,14 +1,10 @@
 import React from "react";
-import MyFace from "./MyFace.png";
 import "./about.css";
 
 export default function About() {
   return (
-    <section className="container">
+    <section className="abt">
       <div className="row d-flex justify-content-center align-items-center">
-        <div className="col-sm">
-          <img src={MyFace} className="img-fluid" alt="my face" />
-        </div>
         <div className="col-sm about">
           <p>
             <br />
