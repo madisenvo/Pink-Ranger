@@ -80,6 +80,9 @@
 
 @media only screen and (max-width: 425px){
   .menu__box {
-     background-color: #d44378;
+     background-color: #762845;
+  }
+  .menu__item {
+    color:#f9ecec
   }
 }
