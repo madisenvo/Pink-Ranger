@@ -4,7 +4,10 @@ import "./contact.css";
 
 export default function Contact() {
     return (
-    <div>
+    <div className="contact"> 
+        <div>
+            <h1 className="contact-header">Contact Us</h1>
+        </div>
         <Form className="form">
         <Form.Group className="m-3">
             <Form.Label>Name</Form.Label>

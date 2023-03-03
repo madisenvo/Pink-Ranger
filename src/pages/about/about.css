@@ -25,7 +25,8 @@ img {
 .abt{
     height: 100vh;
     width: 100%;
-    background-image: url("./blankbg.png");
+    background-image: url("../../images/blankbg.png");
     background-size: cover;
     display: flex;
+    overflow: scroll;
 } 
