@@ -9,6 +9,7 @@ img {
 @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Creepster&display=swap');
 
 .about {
+    display: flex;
     flex-direction: column;
     font-size: 40px;
     font-family: 'Arvo', serif;
@@ -18,8 +19,6 @@ img {
     height: 100%;
     width: 100%;
     padding: 5%;
-
-
 }
 
 .abt{
