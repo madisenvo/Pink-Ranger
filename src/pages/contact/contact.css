@@ -1,13 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Creepster&display=swap');
 
-.btn{
+.btn {
     background-color: #f09 !important;
 }
 
-.form{
-    padding: 50px;
-    margin-left: 80px;
-    margin-right: 80px;
+.form {
     font-family: 'Arvo', serif;
     font-size: 30px;
+    width: 50%;
+}
+
+.contact {
+    height: 100vh;
+    width: 100%;
+    background-image: url("../../images/blankbg.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+}
+
+.contact-header {
+    font-family: 'Creepster', cursive;
+    font-size: 100px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 425px) {
+    .contact-header {
+        padding-top: 100px;
+        margin-bottom: 0;
+        text-align: center;
+        font-size: 60px;
+    }
+
+    .form {
+        padding-bottom: 90px;
+        width: 100%;
+    }
 }
