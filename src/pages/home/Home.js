@@ -6,5 +6,6 @@ export default function Home(){
         <div className="home">
             <h1 className="pr">Pink Ranger</h1>
         </div>
+        
     )
 }

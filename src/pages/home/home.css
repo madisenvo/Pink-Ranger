@@ -21,6 +21,7 @@
     text-shadow: 0 0 7px #fff, 0 0 10px #fff;
 }
 
+
 @media screen and (max-width: 864px){
     .pr {
         font-size: 15rem;
