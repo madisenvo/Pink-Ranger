@@ -1,4 +1,5 @@
 import Button from "react-bootstrap/Button";
+import { SocialIcon } from "react-social-icons";
 import Form from "react-bootstrap/Form";
 import "./contact.css";
 
@@ -8,7 +9,8 @@ export default function Contact() {
         <div>
             <h1 className="contact-header">Contact Us</h1>
         </div>
-        <Form className="form">
+        <Button href="mailto:pinkrangerband@gmail.com">Email Pink Ranger! </Button>
+        {/* <Form className="form">
         <Form.Group className="m-3">
             <Form.Label>Name</Form.Label>
             <Form.Control type="text" placeholder="Name" required />
@@ -27,7 +29,7 @@ export default function Contact() {
         <Button className="m-3" type="submit">
             Submit
         </Button>
-        </Form>
+        </Form> */}
     </div>
     );
 }
