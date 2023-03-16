@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/pink-ranger/static/css/main.14a4b81f.css",
+    "main.js": "/pink-ranger/static/js/main.65ac1c80.js",
+    "static/media/fun.png": "/pink-ranger/static/media/fun.fdee60bb57421075ce8d.png",
+    "static/media/tired.png": "/pink-ranger/static/media/tired.6b1a3dcc78339e48368c.png",
+    "static/media/blankbg.png": "/pink-ranger/static/media/blankbg.7eb85beddc8a6299c52d.png",
+    "index.html": "/pink-ranger/index.html",
+    "main.14a4b81f.css.map": "/pink-ranger/static/css/main.14a4b81f.css.map",
+    "main.65ac1c80.js.map": "/pink-ranger/static/js/main.65ac1c80.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14a4b81f.css",
+    "static/js/main.65ac1c80.js"
+  ]
+}
