@@ -6,12 +6,12 @@ import Contact from "./pages/contact/Contact.js";
 import Music from "./pages/music/Music.js";
 import Footer from "./components/Footer/Footer.js";
 import Home from "./pages/home/Home.js";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
         <Nav />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -20,7 +20,7 @@ function App() {
           <Route path="/Contact" element={<Contact />} />
         </Routes>
         <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
